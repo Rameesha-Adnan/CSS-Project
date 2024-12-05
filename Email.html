@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+                                                <!--ASIDE (SECTION 1/3)-->
+
+    <!--Navigation menu for the email--> 
+    <aside class="sidebar"> 
+    
+      <!--User login sign-->
+    <img id="image" src= "CAT.jpg" height="30px" alt="user's profile picture">
+       
+    <!--User Message-->
+    <h2 id="welcome-message"> Welcome, Rameesha!</h2>
+       
+    <!--Compose button-->
+    <button id="compose-button" type="button">  ✏️ Compose</button>
+
+        <!--Folder list-->
+    <nav>
+         <ul id="folder-list">
+          <li> <a href="inbox">Inbox (10)</a></li>
+          <li> <a href="important">Important</a></li>
+          <li><a href="sent-mail">Sent Mail</a></li>
+          <li><a href="drafts">Drafts</a></li>
+          <li><a href="trash">Trash</a></li>
+         </ul>
+     </nav>
+  </aside>
+                                                        <!--SECTION 2/3-->
+
+ <main class="main-area"> 
+    <!--search bar-->
+        <label for="search-bar"></label>
+         <input id="search-bar" type="search" placeholder="  🔍  Search For Emails">
+       
+    <!--Email list-->
+    <section class="email-list">
+
+      <div class="para">
+        <p class="header-text">Figma For Education <span class="time-date">12:30 PM</span></p>
+        <p><strong>Join the Figma student community</strong><br>Make new friends and level-up your skills.</p>
+      </div>
+
+      <div class="para">
+        <p class="header-text">Grammarly Insights <span class="time-date">Yesterday</span></p>
+        <p><strong>A week without words?</strong><br>There wasn't any writing activity last week. November 04-November 10 Your Weekly Writing...</p>
+      </div>
+      
+      <div class="para">
+        <p class="header-text">Google <span class="time-date">13/11/24</span></p>
+        <p><strong>Security alert</strong><br>A new sign-in on Apple iPhone.</p>
+      </div>
+    </section>
+
+                                                       <!--SECTION 3/3-->
+    <!--Email content section-->
+    <section id="email-view"> 
+        <p><strong>To: </strong>emily@modernquotes.com</p>
+        <p><strong>From: </strong>dailyinspo@lifegenius.com</p><br>
+    <!--Content-->
+        <p id="heading"><strong>Daily Life Inspiration</strong> </p><br>
+           <p>"Don't watch the clock; do what it does. Keep going.”- Sam Levenson</p><br>
+           <p>“Happiness is not something ready-made. It comes from your own actions.”- Dalai Lama</p><br>
+           <p>“The best way to predict your future is to create it.”- Peter Drucker</p><br>
+           <p>“Opportunities don't happen. You create them.” - Chris Grosser</p><br>
+           <p>“Success usually comes to those who are too busy to be looking for it.” - Henry David Thoreau</p><br>
+
+     <!--Textarea-->
+        <textarea class="message-textarea" placeholder="Enter message..."></textarea><br><br>
+        
+     <!--Send email button-->
+     <button id="send-button">Send Email</button>
+    </section>
+ </main>
+</body>
+</html>
